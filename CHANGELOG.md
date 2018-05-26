@@ -4,11 +4,13 @@ BREAKING CHANGES
 * msg.GetSignBytes() now returns bech32-encoded addresses in all cases
 
 FEATURES
+* Remotenet commands for AWS (awsnet)
 
 IMPROVEMENTS
 * export command now writes current validator set for Tendermint
 * [tests] Application module tests now use a mock application
 * [gaiacli] Fix error message when account isn't found when running gaiacli account
+* [ansible] Fixes ansible scripts to work with AWS too
 
 FIXES
 * [lcd] Switch to bech32 for addresses on all human readable inputs and outputs
