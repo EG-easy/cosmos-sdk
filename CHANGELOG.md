@@ -3,6 +3,7 @@
 BREAKING CHANGES
 * msg.GetSignBytes() now returns bech32-encoded addresses in all cases
 * [lcd] REST end-points now include gas
+* Change default ports from 466xx to 266xx
 
 FEATURES
 * [x/auth] Added AccountNumbers to BaseAccount and StdTxs to allow for replay protection with account pruning
